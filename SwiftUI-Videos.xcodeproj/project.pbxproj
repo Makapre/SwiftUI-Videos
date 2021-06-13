@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F74B8D982675F61B00BCEB62 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74B8D972675F61B00BCEB62 /* Video.swift */; };
+		F74B8D992675F61B00BCEB62 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74B8D972675F61B00BCEB62 /* Video.swift */; };
 		F7858DEE267550E000823163 /* SwiftUI_VideosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7858DDB267550DE00823163 /* SwiftUI_VideosApp.swift */; };
 		F7858DEF267550E000823163 /* SwiftUI_VideosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7858DDB267550DE00823163 /* SwiftUI_VideosApp.swift */; };
 		F7858DF0267550E000823163 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7858DDC267550DE00823163 /* ContentView.swift */; };
@@ -16,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F74B8D972675F61B00BCEB62 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		F7858DDB267550DE00823163 /* SwiftUI_VideosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_VideosApp.swift; sourceTree = "<group>"; };
 		F7858DDC267550DE00823163 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F7858DDD267550E000823163 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,6 +63,7 @@
 				F7858DDB267550DE00823163 /* SwiftUI_VideosApp.swift */,
 				F7858DDC267550DE00823163 /* ContentView.swift */,
 				F7858DDD267550E000823163 /* Assets.xcassets */,
+				F74B8D972675F61B00BCEB62 /* Video.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -188,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7858DF0267550E000823163 /* ContentView.swift in Sources */,
+				F74B8D982675F61B00BCEB62 /* Video.swift in Sources */,
 				F7858DEE267550E000823163 /* SwiftUI_VideosApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7858DF1267550E000823163 /* ContentView.swift in Sources */,
+				F74B8D992675F61B00BCEB62 /* Video.swift in Sources */,
 				F7858DEF267550E000823163 /* SwiftUI_VideosApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

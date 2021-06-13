@@ -8,22 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    var videos: [Video] = []
+    
     var body: some View {
         NavigationView {
-            List(0..<50) { item in
-                Image("90-90")
+            List(videos) { video in
+                Image(video.imageName)
                     .resizable()
                     .scaledToFit()
                     .frame(height: 90.0)
                     .cornerRadius(8)
                 Spacer().frame(width: 25)
                 VStack(alignment: .leading) {
-                    Text("The 90 90 Rule is a great rule")
+                    Text(video.title)
                         .fontWeight(.semibold)
                         .lineLimit(/*@START_MENU_TOKEN@*/2/*@END_MENU_TOKEN@*/)
                         .minimumScaleFactor(0.75)
                     Spacer().frame(height: 5)
-                    Text("20.10.2019")
+                    Text(video.uploadDate)
                         .font(.subheadline)
                         .foregroundColor(.secondary)
                 }
